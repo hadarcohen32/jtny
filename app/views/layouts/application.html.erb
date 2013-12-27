@@ -1,14 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Jtny</title>
+  <title>JTNY</title>
   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
 
-<%= yield %>
+<%= link_to "Home", root_path %>
+<%= link_to "About", about_path %>
+<%= render 'layouts/header' %>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<div class="jumbotron">
+	<h1>Welcome to my app!</h1>
+	Click here to <%= link_to "Sign Up", "#", class: "btn btn-primary" %>
+</div>
+
+<div class="container">
+		<%= yield %>
+</div>
+
 
 </body>
 </html>
