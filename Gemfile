@@ -12,14 +12,11 @@ gem 'bootstrap-sass'
 
 group :development do
   gem 'rails_layout'
+  gem 'sqlite3'
 end
 
 group :doc do
   gem 'sdoc', require: false
-end
-
-group :development, :test do
-     gem 'sqlite3'
 end
 
 group :production do
