@@ -11,14 +11,6 @@ gem 'jbuilder', '~> 1.2'
 gem 'bootstrap-sass'
 gem 'devise', '~> 3.1.1'
 
-group :development do
-  gem 'rails_layout'
-end
-
-group :doc do
-  gem 'sdoc', require: false
-end
-
 group :development, :test do
      gem 'sqlite3'
 end
@@ -26,5 +18,13 @@ end
 group :production do
      gem 'pg'
      gem 'rails_12factor'
+end
+
+group :development do
+  gem 'rails_layout'
+end
+
+group :doc do
+  gem 'sdoc', require: false
 end
 
