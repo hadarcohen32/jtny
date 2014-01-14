@@ -1,10 +1,11 @@
-$body-bg: #BCEEF4;
+$body-bg: #66CCFF;
 $jumbotron-bg: white;
-
-.navbar-default {
-    background-color: #F8F8F8;
-    border-color: #E7E7E7;
-}
+$navbar-default-color: black;
+$navbar-default-bg: #BCEEF4;
+$navbar-default-link-color: #003399;
+$navbar-default-link-hover-color: white;
+$jumbotron-font-size: 5;
+$text-color: #003399;
 
 // import the CSS framework
 @import "bootstrap";
