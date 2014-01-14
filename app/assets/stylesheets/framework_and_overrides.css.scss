@@ -1,11 +1,14 @@
-$body-bg: #3498db;
-$navbar-inverse-bg: #27ae60;
-$navbar-inverse-link-color: white;
-$brand-primary: #f39c12;
+$body-bg: #BCEEF4;
 $jumbotron-bg: white;
+
+.navbar-default {
+    background-color: #F8F8F8;
+    border-color: #E7E7E7;
+}
 
 // import the CSS framework
 @import "bootstrap";
+
 
 // make all images responsive by default
 img {
